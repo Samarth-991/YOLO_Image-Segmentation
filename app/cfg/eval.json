@@ -1,0 +1,11 @@
+{
+  "DATA_PATH": "/home/tandonsa/PycharmProjects/side_project/Image_segmentation/data/",
+  "RAW_DIR": "raw_data",
+  "MODEL_DIR": "model_data",
+  "SAMPLES2TEST": 1,
+  "WEIGHTS_DIR":"backup",
+  "MODEL_NAME": "yolo_segment_custom_179000.weights",
+  "RESULT_PATH": "/home/tandonsa/PycharmProjects/side_project/Image_segmentation/data/model_data/results",
+  "TEST_PATH": "/home/tandonsa/PycharmProjects/side_project/Image_segmentation/data/model_data/val/images",
+  "IMAGE_PREFIX":".png"
+}

@@ -1,0 +1,21 @@
+{
+  "IMAGES_PREFIX": ".png",
+  "MASK_PREFIX": ".png",
+  "IMG_WIDTH":320,
+  "IMG_HEIGHT":320,
+  "EPOCHS":200000,
+  "LEARNING_RATE": 1e-4,
+  "N_CLASSES": 13,
+  "BATCH_SIZE": 1,
+  "TRAIN_RATIO": 0.95,
+  "VALID_RATIO": 0.05,
+  "SAMPLES2AUGMENT": 100,
+  "DATA_AUGMENTATION": 0,
+  "IMAGES_PATH": "images",
+  "MASKS_PATH": "masks",
+  "DATA_PATH": "/home/tandonsa/PycharmProjects/side_project/Image_segmentation/data/",
+  "RAW_DIR": "raw_data",
+  "MODEL_DIR": "model_data",
+  "YOLO_DIR": "/home/tandonsa/PycharmProjects/side_project/Image_segmentation/yolo_segmentation",
+  "pre_trained_weights": "instance_segment_161000.weights"
+}
