@@ -74,7 +74,7 @@ Yolo image segmentation can also be downloded from https://github.com/ArtyZe/yol
 Note: Script automatically selects images and mask paths as labels and Makefile - please check the nvcc path and Arch for your system. 
 
 [Results for Yolo-Image Segmentation]
-
+========  
 GT Color RGB Image for Road surface Segmentation: 
 ------------
 ![Image text](https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121GT.png)
