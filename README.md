@@ -3,15 +3,15 @@ Image-Segmentation task using Darknet-YOLOv4-Customized YOLO algorithm for image
 
 [The Command to Run :Crude approach]
 =========
-Compile: 
+### Compile: 
 	
 	make -j8
 
-Train: 
+### Train: 
 
 	./darknet segmenter train cfg/maskyolo.data cfg/instance_segment.cfg [pretrain weights attached4] 
 
-Test:
+### Test:
 	./darknet segmenter test cfg/maskyolo.data cfg/instance_segment.cfg [weights file] [image path]
 
 
@@ -53,23 +53,23 @@ Test:
 
 [How to Train with Your Own Dataset ?]  
 ========  
-1. Create Dataset:
+### Create Dataset:
 
 	original RGB image (RGB image saved in the images folder in dataset)   	
 	Mask image(pixel value is 0, 1, 2, 3 if you have 3 classes + background) to be saved in mask folder in dataset.
 	Mask image needs to be downloaded as No-Color_mask data   
 
-2. Download the Pre-trained weights:
+### Download the Pre-trained weights:
 	Pretrained weights path needs to be updated
 	Toggle for Augmnetations if required in param configrations
 			
-3. Hyperparameter Tuning:
+### Hyperparameter Tuning:
 	Tune Hyper-parameters in params.config
 
-4. Inference:
+### Inference:
 	Update eval config json for Inference on image or folder 
 
-* Note: Script automatically selects images and mask paths as labels so no need to 
+Note: Script automatically selects images and mask paths as labels so no need to 
 
 
 
