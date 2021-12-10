@@ -1,6 +1,8 @@
 # Darknet_Image-Segmentation
 Image-Segmentation task using Darknet-YOLOv4-Customized YOLO algorithm for image segmentation task on Road Surface Segmentation Dataset.The code contains Diluted convolutions which are part of DeelabV3 architecture, added in Darknet for Image segmentation.
 
+Yolo image segmentation can also be downloded from https://github.com/ArtyZe/yolo_segmentation. 
+
 [The Command to Run :Crude approach]
 =========
 ### Compile: 
@@ -69,7 +71,7 @@ Image-Segmentation task using Darknet-YOLOv4-Customized YOLO algorithm for image
 ### Inference:
 	Update eval config json for Inference on image or folder 
 
-Note: Script automatically selects images and mask paths as labels so no need to 
+Note: Script automatically selects images and mask paths as labels and Makefile - please check the nvcc path and Arch for your system. 
 
 
 
