@@ -75,11 +75,11 @@ Note: Script automatically selects images and mask paths as labels and Makefile 
 
 [Results for Yolo-Image Segmentation]
 
-GT Image: 
+GT Color RGB Image for Road surface Segmentation: 
 ------------
 ![Image text](https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121GT.png)
 
-Predicted Mask
+Predicted Overlay Mask for Road Surface Segmentation
 ------------
 ![Image text](https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121.png)
 
