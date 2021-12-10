@@ -77,9 +77,9 @@ Note: Script automatically selects images and mask paths as labels and Makefile 
 
 GT Image: 
 ------------
-![Image text] (https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121GT.png)
+![Image text](https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121GT.png)
 
 Predicted Mask
 ------------
-![Image text] (https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121.png)
+![Image text](https://github.com/Samarth-991/YOLO_Image-Segmentation/blob/main/app/results/000000121.png)
 
