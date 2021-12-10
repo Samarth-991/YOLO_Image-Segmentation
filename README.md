@@ -30,7 +30,8 @@ Update Configrations:
 
 class_names:
 	
-	You need to create obj.names file and place inside model_directory path for network to created multi-class image segmentation model
+* Need to create obj.names file 
+* Place inside model_directory path for network to created multi-class image segmentation model
 
 env_path:
 	
@@ -38,7 +39,7 @@ env_path:
 
 Train Network:
 	
-	use train_pipeline.py to train the E2E pipeline.
+	./train_pipeline.py
 
 Results:
 	
