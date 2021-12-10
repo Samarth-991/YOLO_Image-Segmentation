@@ -17,39 +17,39 @@ Test:
 
 [The Command to Run :Python API approach]
 =========
-Compile: 
+### Compile: 
 	
 	make -j8
 
-Update Configrations:
+### Update Configrations:
 	
 * Update configrations file according to your dataset.
 * parameter.json: Update paths Train image parameters and folder structure with model hyperparameters
 * eval.json: Update evaluation config with evaluation metrics and performance
 * yolo_segment: Yolo-segmentation config to change model layers and depth
 
-class_names:
+### Update class_names:
 	
 * Need to create obj.names file 
 * Place inside model_directory path for network to created multi-class image segmentation model
 
-env_path:
+### Update Env Path:
 	
 	Add Darknet path in .env file for Darknet to train and evaluate model
 
-Train Network:
+### Train Network:
 	
 	./train_pipeline.py
 
-Results:
+### Results:
 	
 	Masked results are placed in results directory
 
 
 [Pretrain weights file and data]  
 ========  
-1. https://www.dropbox.com/sh/9wrevnyzwfv8hg7/AAA1MJElri9aROsjaPTxO5KCa?dl=0
-2. https://towardsdatascience.com/road-surface-semantic-segmentation-4d65b045245
+* https://www.dropbox.com/sh/9wrevnyzwfv8hg7/AAA1MJElri9aROsjaPTxO5KCa?dl=0
+8 https://towardsdatascience.com/road-surface-semantic-segmentation-4d65b045245
 
 [How to Train with Your Own Dataset ?]  
 ========  
