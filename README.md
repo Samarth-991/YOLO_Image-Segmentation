@@ -5,9 +5,11 @@ Image-Segmentation task using Darknet-YOLOv4-Customized YOLO algorithm for image
 =========
 Compile: 
 	make -j8
+
 Train: 
 
 	./darknet segmenter train cfg/maskyolo.data cfg/instance_segment.cfg [pretrain weights attached4] 
+
 Test:
 	./darknet segmenter test cfg/maskyolo.data cfg/instance_segment.cfg [weights file] [image path]
 
@@ -17,17 +19,22 @@ Test:
 Compile: 
 	make -j8
 
+
 Update Configrations:
 	Update configrations file according to your dataset.
 	parameter.json: Update paths Train image parameters and folder structure with model hyperparameters
 	eval.json: Update evaluation config with evaluation metrics and performance
 	yolo_segment: Yolo-segmentation config to change model layers and depth
+
 class_names:
 	You need to create obj.names file and place inside model_directory path for network to created multi-class image segmentation model
+
 env_path:
 	Add Darknet path in .env file for Darknet to train and evaluate model
+
 Train Network:
 	use train_pipeline.py to train the E2E pipeline.
+
 Results:
 	Masked results are placed in results directory
 
